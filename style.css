@@ -40,7 +40,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #01ff1a;
 }
 
 /* main container area beneath menu */
@@ -73,4 +73,31 @@ main {
 
 h2, h3 {
     margin: 0px;
+}
+
+
+/* Portfolio styles */
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #000000;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #000000;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #00ff15;
 }
